@@ -7,9 +7,19 @@ R. Moreno, M. Borga, Ö. Smedby "Generalizing the mean intercept length tensor f
 
 
 # Installation Instructions
-Just copy the provided matlab scripts
+1. Copy the provided matlab scripts
 
-test.m contains a basic example of how to use the main function "generalized_MIL_tensor.m"
+2. run
+
+addpath(genpath('<directory>'))
+
+where <directory> is the place where the files are located. 
+
+3. run 
+
+test.m
+
+This script contains a basic example of how to use the main function "generalized_MIL_tensor.m"
 
 # Description of the repository
 
