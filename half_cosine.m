@@ -1,5 +1,5 @@
 function res = half_cosine( options )
-% creates the vonMisesFisher kernel
+% creates the half-cosine kernel (used by MIL)
 % INPUT: 
 %   options.angular_step: angular step of the grid
 % OUTPUT:
@@ -8,7 +8,7 @@ function res = half_cosine( options )
 % This code can only be used for academic purposes. If you use this code, 
 % please cite the paper:
 %
-% R. Moreno, M. Borga, Ö. Smedby "Generalizing the mean intercept 
+% R. Moreno, M. Borga, Ã–. Smedby "Generalizing the mean intercept 
 % length tensor for gray-level images". Medical Physics(39), pp.
 % 4599-4612. 2012
 %
