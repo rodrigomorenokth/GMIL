@@ -15,7 +15,7 @@ function T = generalized_MIL_tensor(data,kernel,options)
 % This code can only be used for academic purposes. If you use this code, 
 % please cite the paper:
 %
-% R. Moreno, M. Borga, Ö. Smedby "Generalizing the mean intercept 
+% R. Moreno, M. Borga, Ã–. Smedby "Generalizing the mean intercept 
 % length tensor for gray-level images". Medical Physics(39), pp.
 % 4599-4612. 2012
 %
@@ -75,7 +75,7 @@ t = sh_conv(sh, shk);
 %inverse of the spherical harmonics yields the crosses function
 crosses = plm2xyz(t,options.angular_step);   
 
-%normalization
+%normalization 
 crosses = crosses/max(crosses(:));
 
 %% crosses can be seen as an orientation distribution function
