@@ -11,9 +11,9 @@ R. Moreno, M. Borga, Ö. Smedby "Generalizing the mean intercept length tensor f
 
 2. run
 
-addpath(genpath('<directory>'))
+addpath(genpath('\<directory\>'))
 
-where <directory> is the place where the files are located. 
+where \<directory\> is the place where the files are located. 
 
 3. run 
 
